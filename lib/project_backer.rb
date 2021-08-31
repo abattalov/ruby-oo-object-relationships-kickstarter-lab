@@ -1,10 +1,10 @@
-class Project_backer
+class ProjectBacker
 
     attr_accessor :project, :backer
 
     @@all = []
 
-    def initialize(Project,Backer)
+    def initialize(project,backer)
         @project = project
         @backer = backer
         @@all << self
